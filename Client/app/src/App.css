@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.app{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: auto;
+    height: 70vh;
+    width: 50%;
+    display:grid;
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns: 100px auto;    
+}
+
+.logo{
+    text-align: center;
+    padding: 40px;
+    border: solid 1px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.header{      
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: right;
+    border: 1px solid;
+}
+
+.header div{
+    padding: 40px;
+}
+
+.sidebar{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    border: 1px solid;
+}
+
+.sidebar div{
+    margin: 20px;
+   
+}
+
+.content{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 1px solid;
+    overflow-y: auto;    
+}
+
+.content div{
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 370px;
+}
+
+.footer{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border: 1px solid;
+    text-align: center;
+    
+}
+ 
+.footer div{  
+    padding: 20px;
+}
